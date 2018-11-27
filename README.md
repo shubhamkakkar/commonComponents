@@ -1,44 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PS:
+Non of the obove components are working as the firebaseConfiguration hasnt
+      been done, though you would be able to see the validation errors in forms
+      connect to firebase to and intrigate in your project
 
-## Available Scripts
+Dont use in commercial products as the images are taken from dribble might
+      cause lawsuit
 
-In the project directory, you can run:
+Completely fine to be used for learning and educational services
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To set Firebase ->
+1. Make your project on firebase
+2. Copy the configuraion variable i.e var config and paste the required values in the /src/firebaseConfig.js file
+    Do remember to change database read and write seting to true and in the authentication settings -> sign in methods-> enable email and password
+  
+ 
+Clone it and run
+##  `yarn install` or `npm install` 
+followed by
+##  `yarn run` or `npm run` 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ADVICE:
+Clone the repo and start your project from  it 
+  cons: 
+  1.No need to run create-react-app and install the following dependencies ie redux, react-redux, react-router-dom, semantic-ui-react, semnatic-ui-css,firebase and axios
+  2.No need to wory about component import location errors
+  
+To build
+ ##   `yarn build` or `npm run build`
