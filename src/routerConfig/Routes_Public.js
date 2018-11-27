@@ -17,7 +17,7 @@ const Routes = [
     component: ContactForm
   },
   {
-    path: "/loginRegister",
+    path: "/loginsignup",
     component: LoginSignup
   }
 ];

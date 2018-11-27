@@ -1,9 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Home extends Component {
-  render() {
-    return <div>Home</div>;
-  }
-}
+import Navbar from "../../Containers/Navbar";
 
+import { Container } from "semantic-ui-react";
+
+const Home = () => (
+  <Container fluid>
+    <Navbar />
+  </Container>
+);
 export default Home;

@@ -150,6 +150,7 @@ class Signup extends Component {
               circular
               onClick={signUp}
               disabled={this.state.submitButtonBool}
+              style={{ boxShadow: "1px 2px 10px teal" }}
             />
           </Grid.Column>
         </Grid>

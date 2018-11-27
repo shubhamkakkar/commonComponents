@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { Route, withRouter } from "react-router-dom";
+import { Route } from "react-router-dom";
 
-import routes from "./routerConfig/Routes_Public";
+import RoutesPublic from "./routerConfig/Routes_Public";
 import Navbar from "./Containers/Navbar";
+import FooterComponent from "./Components/Footer";
 
 import { Container } from "semantic-ui-react";
 
@@ -12,7 +13,7 @@ class App extends Component {
       <Container fluid>
         <Navbar />
         <div>
-          {routes.map(route => (
+          {RoutesPublic.map(route => (
             <Route
               exact
               key={route.path}
@@ -21,6 +22,18 @@ class App extends Component {
             />
           ))}
         </div>
+        {/* <div>
+          {routesPrivate.map(route => (
+            <Route
+              exact
+              key={route.path}
+              path={route.path}
+              component={route.component}
+            />
+          ))}
+          // settup private routes in /routerConfig/Routes_Private.js
+        </div> */}
+        <FooterComponent />
       </Container>
     );
   }

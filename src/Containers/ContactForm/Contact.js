@@ -125,6 +125,7 @@ class FeedBackForm extends Component {
           <Button
             color="teal"
             circular
+            style={{ boxShadow: "1px 2px 10px teal" }}
             onClick={() => this.setState({ show: true })}
           >
             Submit

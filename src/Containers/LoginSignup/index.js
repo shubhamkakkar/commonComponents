@@ -44,6 +44,7 @@ class LoginSignup extends Component {
               color="violet"
               circular
               onClick={loginSignupChange}
+              style={{ boxShadow: "1px 2px 10px blueviolet" }}
             />
           </Grid.Row>
         </Grid.Column>
